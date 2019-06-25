@@ -26,5 +26,6 @@ npm run e2e
 # run all tests
 npm test
 ```
-
+#点击事件无效加如下属性
+# this.scroll = new Bscroll(this.$refs.wrapper,{ mouseWheel: true, click: true, tap: true })
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
